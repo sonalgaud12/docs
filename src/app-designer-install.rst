@@ -17,6 +17,16 @@ To open Application Designer, navigate to the location of your unzipped folder i
 
    $ grunt
 
+If you downloaded the App Designer as a zip file, it includes all the necessary npm packages, so grunt will work immediately.
+
+However, if you cloned the repository using Git, you need to install the npm packages manually by running:
+
+.. code-block:: console
+
+   $ npm install
+
+
+
 This command runs the script contained in :file:`Gruntfile.js`, so be sure it is in the current directory.  
 
 .. admonition:: Windows Users Tip
